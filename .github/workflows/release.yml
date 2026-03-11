@@ -1,0 +1,30 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get plugin slug
+        id: slug
+        run: echo "name=$(basename ${{ github.repository }})" >> $GITHUB_OUTPUT
+
+      - name: Create zip
+        run: |
+          zip -r ${{ steps.slug.outputs.name }}.zip . \
+            --exclude "*.git*" \
+            --exclude ".github/*"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.slug.outputs.name }}.zip
+          generate_release_notes: true
