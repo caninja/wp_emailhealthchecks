@@ -1,0 +1,99 @@
+# Copyright (C) 2026 Caninja
+# This file is distributed under the MIT.
+msgid ""
+msgstr ""
+"Project-Id-Version: Email Health Checks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/caninja\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: wp-emailhealthchecks\n"
+
+#. Plugin Name of the plugin
+#: wp_emailhealthchecks.php
+msgid "Email Health Checks"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: wp_emailhealthchecks.php
+msgid "https://github.com/caninja"
+msgstr ""
+
+#. Description of the plugin
+#: wp_emailhealthchecks.php
+msgid "Sends scheduled emails to verify mail delivery is working."
+msgstr ""
+
+#. Author of the plugin
+#: wp_emailhealthchecks.php
+msgid "Caninja"
+msgstr ""
+
+#: admin.php:13
+msgid "Invalid interval. Use a number followed by m, h, or d — e.g. 1h, 30m, 2d."
+msgstr ""
+
+#: admin.php:32
+#: admin.php:33
+#: admin.php:48
+msgid "Email Health Checks"
+msgstr ""
+
+#: admin.php:49
+msgid "Sends a test email on a configurable schedule to confirm your outbound mail delivery is working. Designed for use with a healthchecks service, which alerts you if the expected ping stops arriving. Sending directly to your own inbox works too, if you are brave."
+msgstr ""
+
+#: admin.php:55
+msgid "Enabled"
+msgstr ""
+
+#: admin.php:59
+msgid "Recipient Email"
+msgstr ""
+
+#: admin.php:63
+msgid "Subject"
+msgstr ""
+
+#: admin.php:67
+msgid "Body"
+msgstr ""
+
+#: admin.php:71
+msgid "Schedule"
+msgstr ""
+
+#: admin.php:88
+msgid "Last sent:"
+msgstr ""
+
+#: admin.php:92
+msgid "Next scheduled:"
+msgstr ""
+
+#: wp_emailhealthchecks.php:52
+msgid "Every 5 minutes"
+msgstr ""
+
+#: wp_emailhealthchecks.php:53
+msgid "Every 15 minutes"
+msgstr ""
+
+#: wp_emailhealthchecks.php:54
+msgid "Every 30 minutes"
+msgstr ""
+
+#: wp_emailhealthchecks.php:55
+msgid "Every 6 hours"
+msgstr ""
+
+#: wp_emailhealthchecks.php:56
+msgid "Every 12 hours"
+msgstr ""
+
+#: wp_emailhealthchecks.php:111
+msgid "Settings"
+msgstr ""
